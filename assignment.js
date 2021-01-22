@@ -1,6 +1,7 @@
 //https://github.com/ShahadatHossain2/Assignment
 
 function kilometerToMeter(kilometer) {
+    var type = typeof (kilometer)
     if (typeof (kilometer) == "number") {
         if (kilometer >= 0) {
             let result = kilometer * 1000;
@@ -11,7 +12,7 @@ function kilometerToMeter(kilometer) {
         }
     }
     else {
-        return "Sorry! Distance can't be a string."
+        return "You should input a number as the value of distance."
     }
 }
 
@@ -31,7 +32,7 @@ function budgetCalculator(watch, phone, lapetop) {
         }
     }
     else {
-        return "Number of any electronics can't be a string!";
+        return "You should input number as value of electronics.";
     }
 }
 
@@ -63,7 +64,7 @@ function hotelCost(days) {
         }
     }
     else {
-        return "Sorry! Number of days can't be a string.";
+        return "You should input number as the number of days.";
     }
 }
 
@@ -92,7 +93,7 @@ function megaFriend(friends) {
     }
 }
 
-// console.log(kilometerToMeter(80));
-// console.log(budgetCalculator(6, 7, 8));
-// console.log(hotelCost(50));
-// console.log(megaFriend(['Shahadat Hossain','Ehtasham','Junayed Abdullahs','Abir Shanto']));
+console.log(kilometerToMeter());
+console.log(budgetCalculator(6, 7, 8));
+console.log(hotelCost(50));
+console.log(megaFriend(['Shahadat Hossain','Ehtasham','Junayed Abdullahs','Abir Shanto']));
