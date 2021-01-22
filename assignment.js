@@ -1,3 +1,5 @@
+//https://github.com/ShahadatHossain2/Assignment
+
 function kilometerToMeter(kilometer) {
     if (typeof (kilometer) == "number") {
         if (kilometer >= 0) {
@@ -90,7 +92,7 @@ function megaFriend(friends) {
     }
 }
 
-console.log(kilometerToMeter(80));
-console.log(budgetCalculator(6, 7, 8));
-console.log(hotelCost(50));
-console.log(megaFriend(['Shahadat Hossain','Ehtasham','Junayed Abdullahs','Abir Shanto']));
+// console.log(kilometerToMeter(80));
+// console.log(budgetCalculator(6, 7, 8));
+// console.log(hotelCost(50));
+// console.log(megaFriend(['Shahadat Hossain','Ehtasham','Junayed Abdullahs','Abir Shanto']));
