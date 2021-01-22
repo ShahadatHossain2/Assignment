@@ -32,7 +32,7 @@ function budgetCalculator(watch, phone, lapetop) {
         }
     }
     else {
-        return "You should input number as value of electronics.";
+        return "please input value as number of a electronics.";
     }
 }
 
@@ -74,8 +74,8 @@ function megaFriend(friends) {
             let maxLength = friends[0].length;
             let friendName = friends[0];
             for (let i = 0; i < friends.length; i++) {
-                if (typeof (friends[i]) == "number") {
-                    return "Sorry! Name can't be a number.";
+                if (typeof (friends[i]) != "string") {
+                    return "You should input name as string.";
                 }
                 else if (maxLength < friends[i].length) {
                     maxLength = friends[i].length;
@@ -93,7 +93,7 @@ function megaFriend(friends) {
     }
 }
 
-console.log(kilometerToMeter());
-console.log(budgetCalculator(6, 7, 8));
-console.log(hotelCost(50));
-console.log(megaFriend(['Shahadat Hossain','Ehtasham','Junayed Abdullahs','Abir Shanto']));
+// console.log(kilometerToMeter(11));
+// console.log(budgetCalculator(6, 7, 8));
+// console.log(hotelCost(21));
+// console.log(megaFriend(['Shahadat Hossain','Ehtasham','Junayed Abdullahs','Abir Shanto shah']));
